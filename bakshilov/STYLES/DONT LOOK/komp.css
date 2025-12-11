@@ -1,0 +1,38 @@
+.body {
+width: 600px;
+height: 1218px;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secim {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.textfot {
+    font-weight: 100;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+}
+.fotim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12.13px;
+}
+@media (max-width: 1920px) and (min-width: 1280px){
+    img {
+        width: auto;
+        height: auto;
+    }
+}

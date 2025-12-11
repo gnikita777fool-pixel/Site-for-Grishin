@@ -1,0 +1,38 @@
+
+/*Header main */
+
+/*Images*/
+.header {
+    display: flex;
+}
+
+.logo-header {
+        /*UP RIGHT DOWN LEFT*/
+margin: 36px 359px 35px 152px;
+}
+
+.button-header {
+margin: 22px 140px 22px 31px;
+}
+
+/*Text*/
+.text-header {
+font-family: 'Poppins';
+display: flex;
+gap: 32px;
+margin: 33px 31px 33px 359px;
+}
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'Poppin';
+    src: url(../FONTS/Poppins-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-poppin {
+    font-family: 'Poppin';
+}
