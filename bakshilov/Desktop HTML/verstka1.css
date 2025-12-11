@@ -2,6 +2,7 @@
 /*Header*/
 
 /*Custom fonts*/
+
 @font-face {
     font-family: 'Poppin';
     src: url(../FONTS/Poppins-Regular.woff2);
@@ -11,11 +12,15 @@
 }
 
 :root{
+
+    /*Project color*/
     --color-medium-beige: #645C55;
     --color-dark-beige: #403E3B;
     --color-white: #FFFFFF;
     --color-light-beige: #ECE7E4;
+    --color-light-black: #1B1A1A;
 
+    /*Project fonts*/
     --font-family-base: 'Poppin';
 
 }
@@ -38,16 +43,17 @@ header {
     display:flex;
             /*UP RIGHT DOWN LEFT*/
     margin: 0px 120px 0px 120px;
-    max-width: 1200px;
-    max-height: 90px;
+    width: 1200px;
+    height: 90px;
 
 }
+
 /*Images*/
 
 .header-window {
     display: flex;
-    max-height: 50px;
-    max-width: 585px;
+    height: 50px;
+    width: 585px;
             /*UP RIGHT DOWN LEFT*/
     margin: 20px 595px 20px 20px;
 }
@@ -58,32 +64,75 @@ header {
 }
 
 
-/*Text*/
+/*Header Text*/
 
 .text-header {
     display: flex;
-    justify-content: left;
     column-gap: 32px;
     padding: 0;
             /*UP RIGHT DOWN LEFT*/
     margin: 13px 31px 13px 0px;
 }
 
-
-
-
-/*Header end/
+/*Header end*/
 
 /*Main*/
  
-main {
-    background-color:#ECE7E4;
-    max-height: 6117px;
-    max-width: 1440px;
-}
+/*Page 1*/
 
- .banner-main {
+.first-page1 {
     display: flex;
     justify-content: flex-end;
-  height: 100%;
- }
+    background-color: #ECE7E4;
+    width: 1440px;
+    height: 720px;
+}
+
+.first-window1 {
+    width: 600px;
+    height: 566px;
+    order: -1;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 77px 60px 77px 60px;
+}
+
+.first-text1 {
+    color:#645C55;
+    letter-spacing: 2px;
+    font-size: 14px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 60px 370px 20px 40px;
+}
+
+.second-text1 {
+    color:#1B1A1A;
+    display: flex;
+    line-height: 70px;
+    font-size: 64px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 0px 143px 0px 40px;
+}
+
+.third-text1 {
+    color: #645C55;
+    display: flex;
+    font-size: 16px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 18px 51px 30px 40px;
+}
+
+.second-window1 {
+    width: 133px;
+    height: 46px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 18px 0px 40px 45px;
+}
+
+.four-text1 {
+    color :#1B1A1A;
+    display: flex;
+    font-size: 16px;
+
+}
+
+/*Page 1 end*/
