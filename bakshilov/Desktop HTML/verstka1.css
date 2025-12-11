@@ -1,30 +1,7 @@
 
-/*Header main */
+/*Header*/
 
-/*Images*/
-.header {
-    display: flex;
-}
-
-.logo-header {
-        /*UP RIGHT DOWN LEFT*/
-margin: 36px 359px 35px 152px;
-}
-
-.button-header {
-margin: 22px 140px 22px 31px;
-}
-
-/*Text*/
-.text-header {
-font-family: 'Poppins';
-display: flex;
-gap: 32px;
-margin: 33px 31px 33px 359px;
-}
-
-/*Fonts*/
-
+/*Custom fonts*/
 @font-face {
     font-family: 'Poppin';
     src: url(../FONTS/Poppins-Regular.woff2);
@@ -33,6 +10,80 @@ margin: 33px 31px 33px 359px;
     font-display: swap;
 }
 
-.font-poppin {
-    font-family: 'Poppin';
+:root{
+    --color-medium-beige: #645C55;
+    --color-dark-beige: #403E3B;
+    --color-white: #FFFFFF;
+    --color-light-beige: #ECE7E4;
+
+    --font-family-base: 'Poppin';
+
 }
+
+body{
+    width: 1440px;
+    height: 6411px;
+    font-family: var(--font-family-base);
+    background-color: var(--color-white)
+}
+
+/*Header*/
+
+header {
+    width: 1440px;
+    height: 90px;
+}
+
+.header-main {
+    display:flex;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 0px 120px 0px 120px;
+    max-width: 1200px;
+    max-height: 90px;
+
+}
+/*Images*/
+
+.header-window {
+    display: flex;
+    max-height: 50px;
+    max-width: 585px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 20px 595px 20px 20px;
+}
+
+.logo-header {
+            /*UP RIGHT DOWN LEFT*/
+    margin: 36px 343px 35px 32px;
+}
+
+
+/*Text*/
+
+.text-header {
+    display: flex;
+    justify-content: left;
+    column-gap: 32px;
+    padding: 0;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 13px 31px 13px 0px;
+}
+
+
+
+
+/*Header end/
+
+/*Main*/
+ 
+main {
+    background-color:#ECE7E4;
+    max-height: 6117px;
+    max-width: 1440px;
+}
+
+ .banner-main {
+    display: flex;
+    justify-content: flex-end;
+  height: 100%;
+ }

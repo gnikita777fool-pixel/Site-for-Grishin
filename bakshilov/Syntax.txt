@@ -151,3 +151,13 @@
 -------------------------------------------------------------------------------------------------------------------
                                                         CSS контент
 background-image: url(‘код’)
+
+.logo-header {
+            /*UP RIGHT DOWN LEFT*/
+    margin: 36px 343px 35px 32px;
+}
+
+.button-header {
+            /*UP RIGHT DOWN LEFT*/
+    margin: 0px 0px 0px 0px;
+}
