@@ -23,6 +23,7 @@
     /*Project fonts*/
     --font-family-base: 'Poppin';
 
+
 }
 
 body{
@@ -146,7 +147,8 @@ header {
     margin: 100px 336px 100px 336px;
 }
 
-/* Text bloc*/
+/* Text block*/
+
 .first-text2 {
     color:#403E3B;
     display: flex;
@@ -160,10 +162,12 @@ header {
 }
 
 
-.firts-logo2 {
+.first-logo2 {
+    display: flex;
+
     font-size: 32px;
         /*UP RIGHT DOWN LEFT*/
- margin: 0px 0px 548px 133px;
+ margin: 0px px 548px 133px;
 }
 
 .basement-text-and-images2 {
@@ -209,4 +213,40 @@ header {
     color: #645C55;
     font-size: 14px;
 
+}
+
+/*Page 2 end*/
+
+.first-page3 {
+    background-color: #403E3B;
+    display: flex;
+    width: 1440px;
+    height: 600px;
+}
+
+.first-window3 {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 600px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 0px 60px 0px 1080px;
+}
+
+.first-in-window3 {
+    color: #645C55;
+    flex-flow: column;
+    display: flex;
+    width: 285px;
+    height: 68px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 266px 60px 266px 0px;
+}
+
+.first-logo-in-window3 {
+    font-size: 14px;
+}
+
+.first-text-in-window3 {
+    font-size: 16px;
 }
