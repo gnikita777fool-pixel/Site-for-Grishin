@@ -159,7 +159,6 @@ header {
     height: 582px;
 }
 
-/
 
 .firts-logo2 {
     font-size: 32px;
@@ -174,8 +173,12 @@ header {
 }
 
 .first-image2 {   
+    display: flex;
+    align-items: center;
     width: 84px;
     height: 84px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 8px 0px 8px 0px;
 }
 
 .second-image2 {
@@ -188,8 +191,12 @@ header {
 .text-in-basement {
     display: flex;
     flex-flow: column;
-    width: 136px;
-    height: 37px;
+    align-items: center;
+    padding: 0;
+    max-width: 136px;
+    max-height: 37px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 30px 30px 33px 30px;
 }
 
 .text-basement-color1 {
@@ -201,4 +208,5 @@ header {
 .text-basement-color2 {
     color: #645C55;
     font-size: 14px;
+
 }
