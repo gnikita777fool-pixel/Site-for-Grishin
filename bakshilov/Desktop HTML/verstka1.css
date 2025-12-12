@@ -130,9 +130,75 @@ header {
 
 .four-text1 {
     color :#1B1A1A;
-    display: flex;
     font-size: 16px;
 
 }
 
 /*Page 1 end*/
+
+/*Page 2*/
+
+.first-page2 {
+    display: flex;
+    width: 768px;
+    height: 582px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 100px 336px 100px 336px;
+}
+
+/* Text bloc*/
+.first-text2 {
+    color:#403E3B;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    padding: 0;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 0px 0px 0px 133px;
+    width: 501px;
+    height: 582px;
+}
+
+/
+
+.firts-logo2 {
+    font-size: 32px;
+        /*UP RIGHT DOWN LEFT*/
+ margin: 0px 0px 548px 133px;
+}
+
+.basement-text-and-images2 {
+    display: flex;
+    width: 500px;
+    height: 100px;
+}
+
+.first-image2 {   
+    width: 84px;
+    height: 84px;
+}
+
+.second-image2 {
+    display:flex;
+    padding: 0;
+    width: 196px;
+    height: 100px;
+}
+
+.text-in-basement {
+    display: flex;
+    flex-flow: column;
+    width: 136px;
+    height: 37px;
+}
+
+.text-basement-color1 {
+    color: #1B1A1A;
+    font-size: 17px;
+
+}
+
+.text-basement-color2 {
+    color: #645C55;
+    font-size: 14px;
+}
