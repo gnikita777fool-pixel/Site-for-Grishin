@@ -7,6 +7,7 @@
 }
 
 :root {
+    --color-light-gray: #EBEBEB;
     --color-grey-blue: #4C5866;
     --color-light-gray: #85859B;
     --color-light-purple: #7875FE;
@@ -17,16 +18,19 @@
 body {
     height: 1440px;
     width: 3234px;
+    background-color: #EBEBEB;
     font-family: var(--font-family-base);
 }
 
 header {
     display: flex;
+    background-color: white;
     height: 80px;
     width: 1440px;
 }
 
 footer {
+       background-color: white;
     height: 101px;
     width: 1440px;
 }
@@ -64,8 +68,12 @@ footer {
 
 /*Header end*/
 
+
+/*Page 1*/
+
 .main-image-wd1 {
     display: flex;
+    background-color: white;
     height: 620px;
     width: 1440px;
 }
@@ -111,9 +119,86 @@ footer {
     justify-content: center;
     align-items: center;
     color:#7875FE;
+    font-size: 20px;
     border: 1px solid #7875FE;
     height: 70px;
     width: 255px;
 }
+
+/*Page 1 end*/
+
+/*Page 2*/
+
+.main-page2 {
+    display: flex;
+    height: 793px;
+    width: 1110px;
+            /*UP RIGHT DOWN LEFT*/
+    margin: 90px 165px 90px 165px;
+}
+
+/*First images in page 2*/
+
+.main-first-image2 {
+    display: flex;
+    gap: 30px;
+    height: 139px;
+    width: 1110px;
+
+}
+
+.main-first-inimage2 {
+    display: flex;
+    align-items: flex-end;
+    height: 139px;
+    width: 350px;
+}    
+
+.main-first-underinimage2 {
+    display: flex;
+    height: 119px;
+    width: 350px;  
+}
+
+
+
+.main-second-inimage2 {
+    display: flex;
+    align-items: flex-end;
+    height: 139px;
+    width: 350px;
+}
+
+.main-second-underinimage2 {
+    display: flex;
+    height: 119px;
+    width: 350px;  
+}
+
+
+
+.main-third-inimage2 {
+    display: flex;
+    align-items: flex-end;
+    height: 139px;
+    width: 350px;   
+}
+
+.main-third-underinimage2 {
+    display: flex;
+    height: 119px;
+    width: 350px;  
+}
+
+
+
+/*Second image in page 2*/
+
+.main-second-image2 {
+    height: 564px;
+    width: 1110px;
+}
+
+
 
 
