@@ -11,13 +11,14 @@
     --color-grey-blue: #4C5866;
     --color-light-gray: #85859B;
     --color-light-purple: #7875FE;
+    --color-dark-grey: #666666;
 
     --font-family-base: 'Roboto';
 }
 
 body {
-    height: 1440px;
-    width: 3234px;
+    height: 3234px;
+    width: 1440px;
     background-color: #EBEBEB;
     font-family: var(--font-family-base);
 }
@@ -88,6 +89,7 @@ footer {
 .main-image-text-wd1 {
     display: flex;
     flex-flow: column;
+    padding: 0px;
     row-gap: 30px;
     height: 361px;
     width: 445px;
@@ -98,11 +100,13 @@ footer {
 .main-image-text1 {
     height: 120px;
     width: 444px;
+    line-height: 60px;
     font-size: 60px;
     color: #4C5866;
 }
 
 .main-image-undertext1-wd {
+    padding: 0px;
     height: 110px;
     width: 445px;
 
@@ -131,13 +135,15 @@ footer {
 
 .main-page2 {
     display: flex;
+    flex-flow: column;
+    row-gap: 90px;
     height: 793px;
     width: 1110px;
             /*UP RIGHT DOWN LEFT*/
     margin: 90px 165px 90px 165px;
 }
 
-/*First images in page 2*/
+/*First group images in page 2*/
 
 .main-first-image2 {
     display: flex;
@@ -146,6 +152,17 @@ footer {
     width: 1110px;
 
 }
+
+.main-textcolor2 {
+    color: #666666;
+}
+
+.main-undertextcolor2 {
+    color:#85859B;
+}
+
+
+/*First image in group 1*/
 
 .main-first-inimage2 {
     display: flex;
@@ -156,11 +173,28 @@ footer {
 
 .main-first-underinimage2 {
     display: flex;
+    gap: 30px;
     height: 119px;
     width: 350px;  
 }
 
+.main-first-underimage2 {
+    display: flex;
+    height: 118px;
+    width: 160px; 
 
+}
+
+.main-first-undertext2 {
+    display: flex;
+    flex-flow: column;
+    line-height: 25px;
+    padding: 0px;
+    height: 81px;
+    width: 160px;
+}
+
+/*Second image in group 1*/
 
 .main-second-inimage2 {
     display: flex;
@@ -171,11 +205,27 @@ footer {
 
 .main-second-underinimage2 {
     display: flex;
+    gap: 30px;
     height: 119px;
     width: 350px;  
 }
 
+.main-second-underimage2 {
+    display: flex;
+    height: 118px;
+    width: 160px; 
+}
 
+.main-second-undertext2 {
+    display: flex;
+    flex-flow: column;
+    line-height: 25px;
+    padding: 0px;
+    height: 81px;
+    width: 160px;
+}
+
+/*Third image in group 1*/
 
 .main-third-inimage2 {
     display: flex;
@@ -186,18 +236,66 @@ footer {
 
 .main-third-underinimage2 {
     display: flex;
+    gap: 30px;
     height: 119px;
     width: 350px;  
 }
 
+.main-third-underimage2 {
+    display: flex;
+    height: 118px;
+    width: 160px; 
+}
 
+.main-third-undertext2 {
+    display: flex;
+    flex-flow: column;
+    line-height: 25px;
+    padding: 0px;
+    height: 81px;
+    width: 160px;
+}
 
-/*Second image in page 2*/
+/*Second group image in page 2*/
 
-.main-second-image2 {
+.main-second-image2-1 {
+    display: flex;
     height: 564px;
     width: 1110px;
 }
+
+.main-second-text-wd2-1 {
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+    padding: 0px;
+    height: 445px;
+    width: 350px;
+}
+
+.main-second-textlogo-wd2-1 {
+    
+}
+
+.main-second-textlogo2-1 {
+    display: flex;
+    align-items:center;
+    color: #666666;
+    height: 74px;
+    width: 350px;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+
+.main-second-text2-1 {
+    display: flex;
+    align-items: flex-start;
+    line-height: 30px;
+    color: #85859B;
+}
+
+/*Page 2 end*/
 
 
 
